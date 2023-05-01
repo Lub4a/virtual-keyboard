@@ -39,7 +39,7 @@ body {
 }
 
 .button-key{
-    width: 6.8%;
+    width: 7%;
     height: 65px;
     margin: 2px;
     font-size: 2.5em;
@@ -53,12 +53,20 @@ body {
     background-color: black;
 }
 
-.button-key:nth-child(13) {
-    width: 8%;
+.button-key:nth-child(26),
+.button-key:nth-child(37){
+    width: 3%;
+}
+
+.button-key:nth-child(27){
+    width: 11%;
+}
+
+.button-key:nth-child(38) {
+    width: 5%;
 }
 
 .button-key:nth-child(12),
-.button-key:nth-child(27),
 .button-key:nth-child(39),
 .button-key:nth-child(40){
     width: 12%;
@@ -69,7 +77,13 @@ body {
 }
 
 .button-key:nth-child(56) {
-    width: 32%;
+    width: 30%;
+}
+.button-key:nth-child(59),
+.button-key:nth-child(60),
+.button-key:nth-child(61),
+.button-key:nth-child(62){ 
+    width: 5%;
 }
 
 .text {
